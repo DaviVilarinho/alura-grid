@@ -43,10 +43,9 @@
 }
 
 .secao-vertical .secao__cartoes {
-  display: grid;
-  grid-auto-flow: column;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  column-gap: 1.25rem;
-  grid-column: 1/3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  gap: 1.25rem;
 }
