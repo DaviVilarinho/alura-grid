@@ -36,3 +36,17 @@
 .secao-horizontal .secao__cartoes .cartao .cartao__botao {
   grid-area: 2 / 3 / 3 / 4;
 }
+
+.secao-vertical {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.secao-vertical .secao__cartoes {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  column-gap: 1.25rem;
+  grid-column: 1/3;
+}
