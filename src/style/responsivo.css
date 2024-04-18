@@ -22,12 +22,16 @@
         display: block;
     }   
 
+    .secao-horizontal .secao__cartoes .cartao {
+        column-gap: 0.5rem;
+    }
     .secao-horizontal .cartao__imagem {
         height: 4.58rem;
     }
  
     .secao-horizontal .cartao__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center;
     }
 
     .secao-vertical .cartao {
